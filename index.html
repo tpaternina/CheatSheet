@@ -21,13 +21,13 @@
 
     <main>
       <!-- HTML table -->
-      <h2> HTML Elements </h2>
+      <h1 class="custom-header"> HTML Elements </h2>
       <table>
         <thead>
           <tr>
             <th scope="col">Tag</th>
             <th scope="col">Name</th>
-            <th colspan="col">Description</th>
+            <th scope="col">Description</th>
           </tr>
         </thead>
         <tbody>
@@ -53,13 +53,13 @@
       </table>
 
       <!-- CSS table -->
-      <h2> CSS Properties </h2>
+      <h1 class="custom-header"> CSS Properties </h2>
       <table>
         <thead>
           <tr>
-            <th>Property</th>
-            <th>Description</th>
-            <th>Values</th>
+            <th scope="col">Property</th>
+            <th scope="col">Description</th>
+            <th scope="col">Values</th>
           </tr>
         </thead>
         <tbody>
@@ -86,10 +86,15 @@
               to display text content.</td>
             <td><code>name1[, name2, name3 ...]</code>. Can be specific names
               (e.g. Arial, Georgia, Times), or generic names (e.g. sans-serif,
-              serif).</td>
+              serif). Name order determines the priority for each font family.</td>
+          </tr>
+          <tr>
+            <td><code>text-transform</code></td>
+            <td>Changes the way the text is capitalized</td>
+            <td><code>capitalized, uppercase, lowercase, none.</code></td>
           </tr>
         </tbody>
-      </table> 
+      </table>
 
       <!-- Git table -->
 
